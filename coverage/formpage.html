@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Page</title>
+    </head>
+    <body>
+        <header>
+            <h1>Form Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Contact Form</h2>
+                <form action ="/submit"method="post">
+                    <label for ="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for ="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for ="message">Message:</label>
+                    <textarea="message" id="message" name="message"></textarea>
+                    
+                    <label for="category">Category:</label>
+                    <select name="category" id="Category">
+                        <option value="feedback">Feedback</option>
+                        <option value="inquiry">Inquiry</option>
+                        <option value="support">Support</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                   </form>
+            </section>
+        </main>
+        <footer> 
+            <p>My Website</p>
+        </footer>
+    </body>
+</html>
